@@ -54,9 +54,12 @@ let ageJohn, ageMark;
 const birthYearJohn = 2000;
 const birthYearMark = 1990;
 
-let year = 2023;
+let date = new Date();
+let year = date.getFullYear();
 ageJohn = year - birthYearJohn;
 ageMark = year - birthYearMark;
 
 console.log("John " + ageJohn + " Jahre");
 console.log("Mark " + ageMark + " Jahre");
+
+
