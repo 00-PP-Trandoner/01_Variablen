@@ -19,15 +19,25 @@
 // firstName = "Max";
 //console.log(firstName);
 
-// let familyName; // Deklaration 
-// familyName = "Mustermann"; 
-// console.log(familyName);
+// let familyName;                //<-- Deklaration 
+// familyName = "Mustermann";     //<--Wertzuweisung
+// console.log(familyName);      //<--Ausgabe 
 
 /***** 03 Deklaration + Wertzuweisung II *******/
 
-let firstName, familyName;
+// let firstName, familyName;
 
-firstName = prompt("Bitte Vornamen eingeben");
-familyName = prompt("Bitte Nachnamen eingeben");
+// firstName = prompt("Bitte Vornamen eingeben");
+// familyName = prompt("Bitte Nachnamen eingeben");
 
-console.log(firstName + " " + familyName);
+// console.log(firstName + " " + familyName);
+
+/* JS ist eine untypisierte Sprache! | untyped */
+let test;
+test = "Max";
+test = 2;
+test = false;           //<-- Die letzte Angabe wird übernommen !!!
+
+
+console.log("Datentyp: " + typeof test);
+console.log("Inhalt: " + test);
