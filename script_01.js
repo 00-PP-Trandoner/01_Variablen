@@ -42,6 +42,6 @@
 // console.log("Datentyp: " + typeof test);
 // console.log("Inhalt: " + test);
 
-const firstName = "Max";      // Variable mit KONSTANTEN Inhalt 
-firstName = "Maximus";       // KEINE neue Zuweisung zur LZ möglich --> Fehler 
-console.log(firstName);      // AUGABE
+// const firstName = "Max";      // Variable mit KONSTANTEN Inhalt 
+// firstName = "Maximus";       // KEINE neue Zuweisung zur LZ möglich --> Fehler 
+// console.log(firstName);      // AUGABE
